@@ -22,7 +22,7 @@
 				body: formData
 			};
 
-			fetch('http://localhost:3000/stats', options)
+			fetch('http://localhost:3000/upload', options)
 			.then(res => {
 				if (res.ok) {
 					return res.text()
